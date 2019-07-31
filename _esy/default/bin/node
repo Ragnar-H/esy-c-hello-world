@@ -1,0 +1,4 @@
+#!/bin/sh
+export ESY__NODE_BIN_PATH="/home/ragnar/workspace/esy-c-hello-world/_esy/default/bin"
+exec "/home/ragnar/.nvm/versions/node/v12.4.0/bin/node" -r "/home/ragnar/workspace/esy-c-hello-world/_esy/default/pnp.js" "$@"
+              
