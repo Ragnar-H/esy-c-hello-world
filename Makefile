@@ -8,7 +8,7 @@ Name: hello
 Description: The hello library
 Version: 1.0.0
 Cflags: -I$${includedir}
-Libs: -L$${libdir} -ldep
+Libs: -L$${libdir} -lhello
 endef
 export hello_pc
 
